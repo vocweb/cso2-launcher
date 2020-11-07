@@ -1,0 +1,28 @@
+#include "winver.h"
+
+IDI_ICON1               ICON    DISCARDABLE     "launcher.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,4,1,0
+ PRODUCTVERSION 0,4,1,0
+ FILEFLAGS 0x0L
+ FILEFLAGSMASK 0x3fL
+ FILEOS 0x00040004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "CompanyName", "Luis Leite"
+            VALUE "FileDescription", "launcher"
+            VALUE "FileVersion", "0.4.1.0"
+            VALUE "LegalCopyright", "2018-2020 under MIT License"
+            VALUE "InternalName", "launcher"
+            VALUE "OriginalFilename", "launcher.exe"
+            VALUE "ProductName", "launcher"
+            VALUE "ProductVersion", "0.4.1.0"
+        END
+    END
+END
